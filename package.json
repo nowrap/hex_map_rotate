@@ -1,0 +1,22 @@
+{
+  "name": "hex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "hummus-recipe": "^1.7.2",
+    "nodemw": "^0.12.1",
+    "npm": "^6.1.0",
+    "pretty-data": "^0.40.0",
+    "svg-to-pdfkit": "^0.1.7",
+    "svg.js": "^2.6.5",
+    "svgdom": "0.0.15"
+  }
+}

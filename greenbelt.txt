@@ -1,0 +1,94 @@
+0102 white "Nach Restov"
+0103 white 
+0104 white
+0105 white
+0106 white
+0107 white
+0108 white
+
+0201 white cliff0 cliff1 cliff2 cliff5
+0202 white cliff0 cliff5
+0203 light-green grass keep cliff0 cliff5 "Oleg's Tradingpost"
+0204 white cliff0 cliff5
+0205 white cliff0 cliff5
+0206 white cliff0 cliff5 cliff4
+0207 white
+
+0302 white cliff1
+0303 light-green grass cave "Spider Lair H"
+0304 white forest
+0305 white
+0306 white
+0307 white cliff3 cliff4 cliff5
+0308 white
+
+0401 white cliff0 cliff1 cliff2
+0402 white hill
+0403 white hill battle "Griffons"
+0404 white forest
+0405 white
+0406 white cliff4
+0407 white
+
+0502 white cliff1
+0503 white
+0504 white "Dorn"
+0505 white
+0506 white
+0507 white cliff3 cliff4 cliff5
+0508 white
+
+0601 white cliff0 cliff1 cliff2 cliff3
+0602 white cliff3 cliff2
+0603 white cliff3 cliff2
+0604 white cliff3 cliff2
+0605 white cliff3 cliff2
+0606 white cliff4 cliff3 cliff2
+0607 white
+
+0702 white
+0703 white
+0704 white
+0705 white
+0706 white
+0707 white
+0708 white
+
+0801 white
+0802 white
+0803 white
+0804 white
+0805 white
+0806 white
+0807 white
+
+0902 white
+0903 white
+0904 white
+0905 white
+0906 white
+0907 white
+0908 white
+
+1001 white
+1002 white
+1003 white
+1004 white
+1005 white
+1006 white
+1007 white
+
+1102 white
+1103 white
+1104 white
+1105 white
+1106 white
+1107 white
+1108 white
+
+0101-0102-0103-0203-0104-0004 trail
+
+0404-0504-0604 river
+
+include https://campaignwiki.org/contrib/gnomeyland.txt
+include https://www.creo-ignem.net/community/hex-mapper/lib.txt
