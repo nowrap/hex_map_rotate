@@ -149,17 +149,20 @@
   </g>
   <g id="lines">
     <path id="line0" stroke="#e3bea3" stroke-width="6" fill="none" d="M150.0,138.6 C150.0,173.2 150.0,138.6 150.0,173.2 S150.0,311.8 150.0,346.4 S195.0,459.0 225.0,476.3 S255.0,545.6 225.0,562.9 S105.0,632.2 75.0,649.5 L45.0,666.8"/>
-    <path id="line1" transform="translate(20,10)" stroke="#6ebae7" stroke-width="8" fill="none" opacity="0.7" d="M645.0,666.8 C675.0,649.5 645.0,666.8 675.0,649.5 S795.0,632.2 825.0,649.5 L855.0,666.8"/>
+    <path id="line1" stroke="#e3bea3" stroke-width="6" fill="none" d="M150.0,381.1 C150.0,346.4 150.0,381.1 150.0,346.4 S150.0,207.8 150.0,173.2 L150.0,138.6"/>
+    <path id="line2" transform="translate(20,10)" stroke="#6ebae7" stroke-width="8" fill="none" opacity="0.7" d="M645.0,666.8 C675.0,649.5 645.0,666.8 675.0,649.5 S795.0,580.2 825.0,562.9 L855.0,545.6"/>
+    <path id="line3" transform="translate(20,10)" stroke="#6ebae7" stroke-width="8" fill="none" opacity="0.7" d="M795.0,580.2 C825.0,562.9 795.0,580.2 825.0,562.9 L855.0,545.6"/>
   </g>
   <g id="things">
     <use x="300.0" y="173.2" xlink:href="#cliff0" />
     <use x="300.0" y="173.2" xlink:href="#cliff1" />
     <use x="300.0" y="173.2" xlink:href="#cliff2" />
     <use x="300.0" y="173.2" xlink:href="#cliff5" />
+    <use x="300.0" y="346.4" xlink:href="#keep" />
     <use x="300.0" y="346.4" xlink:href="#cliff0" />
     <use x="300.0" y="346.4" xlink:href="#cliff5" />
     <use x="300.0" y="519.6" xlink:href="#grass" />
-    <use x="300.0" y="519.6" xlink:href="#keep" />
+    <use x="300.0" y="519.6" xlink:href="#castle" />
     <use x="300.0" y="519.6" xlink:href="#cliff0" />
     <use x="300.0" y="519.6" xlink:href="#cliff5" />
     <use x="300.0" y="692.8" xlink:href="#cliff0" />
@@ -185,6 +188,7 @@
     <use x="600.0" y="692.8" xlink:href="#forest" />
     <use x="600.0" y="1039.2" xlink:href="#cliff4" />
     <use x="750.0" y="259.8" xlink:href="#cliff1" />
+    <use x="750.0" y="606.2" xlink:href="#hill" />
     <use x="750.0" y="1125.8" xlink:href="#cliff3" />
     <use x="750.0" y="1125.8" xlink:href="#cliff4" />
     <use x="750.0" y="1125.8" xlink:href="#cliff5" />
@@ -363,17 +367,24 @@
     <polygon id="hex1108" fill="none" stroke="black" stroke-width="3" points="1550.0,1299.0 1600.0,1385.6 1700.0,1385.6 1750.0,1299.0 1700.0,1212.4 1600.0,1212.4" />
   </g>
   <g id="line_labels">
+    <g>
+      <text font-size="20pt" dy="5px" stroke="white" stroke-width="5pt"><textPath href='#line1'>Nach Restov</textPath></text>
+>      <text font-size="20pt" dy="5px"><textPath href='#line1'>Nach Restov</textPath></text>
+>    </g>
+    <g>
+      <text font-size="20pt" dy="5px" stroke="white" stroke-width="5pt"><textPath href='#line3'>Dorn</textPath></text>
+>      <text font-size="20pt" dy="5px"><textPath href='#line3'>Dorn</textPath></text>
+>    </g>
   </g>
   <g id="labels">
-    <g><text text-anchor="middle" x="150.0" y="329.1" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Nach Restov</text><text text-anchor="middle" x="150.0" y="329.1" font-size="20pt" dy="5px">Nach Restov</text></g>
+    <g><text text-anchor="middle" x="300.0" y="415.7" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Bokken's Hut</text><text text-anchor="middle" x="300.0" y="415.7" font-size="20pt" dy="5px">Bokken's Hut</text></g>
     <g><text text-anchor="middle" x="300.0" y="588.9" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Oleg's Tradingpost</text><text text-anchor="middle" x="300.0" y="588.9" font-size="20pt" dy="5px">Oleg's Tradingpost</text></g>
     <g><text text-anchor="middle" x="450.0" y="502.3" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Spider Lair H</text><text text-anchor="middle" x="450.0" y="502.3" font-size="20pt" dy="5px">Spider Lair H</text></g>
     <g><text text-anchor="middle" x="600.0" y="588.9" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Griffons</text><text text-anchor="middle" x="600.0" y="588.9" font-size="20pt" dy="5px">Griffons</text></g>
-    <g><text text-anchor="middle" x="750.0" y="675.5" font-size="20pt" dy="5px" stroke="white" stroke-width="5pt">Dorn</text><text text-anchor="middle" x="750.0" y="675.5" font-size="20pt" dy="5px">Dorn</text></g>
   </g>
 <text x="50" y="-15" font-size="15pt" fill="#999999"><a style="fill:#8888ff" xlink:href="http://www.busygamemaster.com/">Gnomeyland SVG Map Icons</a> Copyright Gregory B. MacKenzie 2012, Alex Schroeder 2013-2016. This work is licensed under the <a style="fill:#8888ff" xlink:href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</text>
 <!-- Source
-0102 white "Nach Restov"
+0102 white
 0103 white 
 0104 white
 0105 white
@@ -382,8 +393,8 @@
 0108 white
 
 0201 white cliff0 cliff1 cliff2 cliff5
-0202 white cliff0 cliff5
-0203 light-green grass keep cliff0 cliff5 "Oleg's Tradingpost"
+0202 white keep cliff0 cliff5 "Bokken's Hut"
+0203 light-green grass castle cliff0 cliff5 "Oleg's Tradingpost"
 0204 white cliff0 cliff5
 0205 white cliff0 cliff5
 0206 white cliff0 cliff5 cliff4
@@ -407,7 +418,7 @@
 
 0502 white cliff1
 0503 white
-0504 white "Dorn"
+0504 white hill
 0505 white
 0506 white
 0507 white cliff3 cliff4 cliff5
@@ -462,8 +473,10 @@
 1108 white
 
 0101-0102-0103-0203-0104-0004 trail
+0103-0102-0101 trail "Nach Restov"
 
-0404-0504-0604 river
+0404-0504-0603 river
+0504-0603 river "Dorn"
 
 include https://campaignwiki.org/contrib/gnomeyland.txt
 include https://www.creo-ignem.net/community/hex-mapper/lib.txt
