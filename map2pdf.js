@@ -61,7 +61,9 @@ var path = require('path'),
     srcFilename = path.basename(options.src, srcExt),
     PDFDocument = require('pdfkit'),
     SVGtoPDF = require('svg-to-pdfkit')
-    stream = fs.createWriteStream(__dirname + '/' + srcFilename + '.pdf')
+    pdfFile = __dirname + '/' + srcFilename + '.pdf',
+    pdfFileTemp = __dirname + '/' + srcFilename + '_temp.pdf',
+    stream = fs.createWriteStream(pdfFileTemp)
 ;
 
 const factor = 841.89 / 297;
@@ -87,11 +89,11 @@ stream.on('finish', function() {
     console.log('PDF closed');
 
     const HummusRecipe = require('hummus-recipe');
-    const pdfDoc = new HummusRecipe(__dirname + '/map_kingmaker_template.pdf', __dirname + '/output_overlay.pdf');
+    const pdfDoc = new HummusRecipe(__dirname + '/map_kingmaker_template.pdf', pdfFile);
 
     pdfDoc
         .editPage(1)
-        .overlay(__dirname + '/output.pdf')
+        .overlay(pdfFileTemp)
         .endPage()
         .endPDF();
 });
