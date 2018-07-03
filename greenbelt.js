@@ -43,11 +43,11 @@ client.getArticle('KM:Kampagne/Karte/Greenbelt', function(err, data) {
     console.log("js", js);
 
     var pdf = __dirname + "/greenbelt.pdf";
-    var pdf_js = __dirname + "/map2pdf_js.js";
+    var pdf_js = __dirname + "/map2pdf.js";
     console.log("pdf_js", pdf_js);
 
     fs.writeFile(file, res, function(err) {
-        if(err) {
+        if (err) {
             return console.log(err);
         }
 
@@ -84,7 +84,7 @@ client.getArticle('KM:Kampagne/Karte/Greenbelt', function(err, data) {
                             }
 
                             client.logIn(function() {
-                                client.upload("Greenbelt.pdf_js", new Buffer(data, 'binary'), "Neues Rendering", function() {
+                                client.upload("Greenbelt.pdf", new Buffer(data, 'binary'), "Neues Rendering", function() {
                                 });
                             });
                         });
