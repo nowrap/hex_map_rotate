@@ -86,7 +86,7 @@ SVGtoPDF(doc, svg, -1.411 * factor, 7 * factor, {width: 210 * factor});
 // Stream contents to a file
 
 stream.on('finish', function() {
-    console.log('PDF closed');
+    console.log('PDF created');
 
     const HummusRecipe = require('hummus-recipe');
     const pdfDoc = new HummusRecipe(__dirname + '/map_kingmaker_template.pdf', pdfFile);
@@ -95,7 +95,10 @@ stream.on('finish', function() {
         .editPage(1)
         .overlay(pdfFileTemp)
         .endPage()
-        .endPDF();
+        .endPDF(() => {
+            /* done! */
+            console.log("PDF overlayed");
+        });
 });
 
 // Close PDF and write file.
