@@ -1,0 +1,3 @@
+[submodule "lib/hex-mapping"]
+	path = lib/hex-mapping
+	url = https://alexschroeder.ch/cgit/hex-mapping
