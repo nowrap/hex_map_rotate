@@ -78,7 +78,9 @@ client.getArticle('KM:Kampagne/Karte/Greenbelt', function(err, data) {
                             return console.log(err);
                         }
 
-                        fs.readFile(pdf, 'utf8', function (err, data) {
+                        console.log(stdout);
+
+                        fs.readFile(pdf, function (err, data) {
                             if (err) {
                                 return console.log(err);
                             }
