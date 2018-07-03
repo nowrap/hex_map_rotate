@@ -77,6 +77,7 @@ client.getArticle('KM:Kampagne/Karte/Greenbelt', function(err, data) {
                             return console.log(err);
                         }
                     });
+                });
             });
         });
     });
