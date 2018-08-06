@@ -13,7 +13,7 @@
     "command-line-usage": "^5.0.5",
     "hummus-recipe": "^1.7.2",
     "nodemw": "^0.12.1",
-    "npm": "^6.1.0",
+    "npm": "^6.3.0",
     "pretty-data": "^0.40.0",
     "svg-to-pdfkit": "^0.1.7",
     "svg.js": "^2.6.5",
