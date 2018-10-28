@@ -64,7 +64,7 @@ var file = fs.readFileSync(__dirname + '/' + options.src, 'utf8');
 file = file.replace("</defs>", "</defs><g id='map'>");
 file = file.replace("</svg>", "</g></svg>");
 // 2018-10-28
-file = file.replace(">\n", "");
+file = file.replace(/ > /g, "   ");
 //console.log(file);
 
 const regex = /viewBox="([\d\s\-]*)"/gm;
