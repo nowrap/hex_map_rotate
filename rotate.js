@@ -65,6 +65,7 @@ file = file.replace("</defs>", "</defs><g id='map'>");
 file = file.replace("</svg>", "</g></svg>");
 // 2018-10-28
 file = file.replace(/ > /g, "   ");
+file = file.replace(/pqath/g, "path");
 //console.log(file);
 
 const regex = /viewBox="([\d\s\-]*)"/gm;
