@@ -1,58 +1,58 @@
-0102 white
-0103 white 
-0104 white
-0105 white
-0106 white
+0102 white grass_w
+0103 white grass_w
+0104 white grass_w
+0105 white grass_w
+0106 white grass_w
 0107 white
 0108 white
 
-0201 white cliff0 cliff1 cliff2 cliff5
-0202 white keep cliff0 cliff5 "Bokken's Hut"
-0203 light-green grass castle cliff0 cliff5 "Oleg's Tradingpost"
-0204 white cliff0 cliff5
-0205 white cliff0 cliff5
-0206 white cliff0 cliff5 cliff4
-0207 white
+0201 light-green grass_w cliff0 cliff1 cliff2 cliff5
+0202 light-green grass_w keep cliff0 cliff5 "Bokken's Hut"
+0203 light-green grass_w castle cliff0 cliff5 "Oleg's Tpost"
+0204 light-green grass_w trees_sw cliff0 cliff5
+0205 green forest beartrap cliff0 cliff5 "Traps"
+0206 white grass_w cliff0 cliff5
+0207 white cliff0 cliff5 cliff4
 
-0302 white cliff1
-0303 light-green grass cave "Spider Lair H"
-0304 white forest
-0305 white
-0306 white
-0307 white cliff3 cliff4 cliff5
-0308 white
+0302 light-green grass_w cliff1
+0303 light-green grass_w cave "SpiderLairH"
+0304 green forest cave "MondR/OwlB"
+0305 green forest pixie "Feys/Furt"
+0306 white forest
+0307 white "Dorn Quelle"
+0308 white cliff3 cliff4 cliff5
 
-0401 white cliff0 cliff1 cliff2
-0402 white hill
-0403 white hill battle "Griffons"
-0404 white forest
-0405 white
-0406 white cliff4
-0407 white
+0401 light-green grass hydra cliff0 cliff1 cliff2 "Hydra Hort"
+0402 light-soil hill oldoak "Alte Eiche"
+0403 light-soil hill cave "Grffns/GoldCave"
+0404 green forest camp "Dornfurtlager"
+0405 green forest ruins "TempleRuin"
+0406 white forest "Stinker Quelle"
+0407 white cliff4
 
-0502 white cliff1
-0503 white
-0504 white hill
-0505 white
-0506 white
-0507 white cliff3 cliff4 cliff5
-0508 white
+0502 white hill cliff1
+0503 white hill
+0504 white hill ropebridge "Canyon"
+0505 white forest
+0506 white forest "Frösche / Ruinen"
+0507 white 
+0508 white cliff3 cliff4 cliff5
 
-0601 white cliff0 cliff1 cliff2 cliff3
-0602 white cliff3 cliff2
-0603 white cliff3 cliff2
-0604 white cliff3 cliff2
-0605 white cliff3 cliff2
-0606 white cliff4 cliff3 cliff2
-0607 white
+0601 white cliff0 cliff1 cliff2
+0602 white 
+0603 white hill
+0604 white hill
+0605 white forest 
+0606 white forest 
+0607 white cliff4
 
-0702 white
-0703 white
-0704 white
-0705 white
-0706 white
-0707 white
-0708 white
+0702 white cliff1 cliff2 cliff3
+0703 white cliff3 cliff2
+0704 white cliff3 cliff2
+0705 white cliff3 cliff2
+0706 white cliff3 cliff2
+0707 white cliff3 cliff2
+0708 white cliff2 cliff3 cliff4 cliff5
 
 0801 white
 0802 white
@@ -89,8 +89,11 @@
 0101-0102-0103-0203-0104-0004 trail
 0103-0102-0101 trail "Nach Restov"
 
-0404-0504-0603 river
+0306-0305-0404-0504-0603 river
 0504-0603 river "Dorn"
+0406-0506-0606 river
+0506-0606 river "Stinker"
+0501-0401-0502 river
 
 include https://campaignwiki.org/contrib/gnomeyland.txt
 include https://www.creo-ignem.net/community/hex-mapper/lib.txt

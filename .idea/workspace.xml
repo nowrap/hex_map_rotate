@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0af3dbb7-1fe4-4e2d-b279-26b2922ffe4e" name="Default" comment="new syntax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenbelt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/greenbelt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenbelt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/greenbelt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +22,12 @@
     <session id="412226365">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="372" />
+          <entry key="txt" value="457" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="372" />
+          <entry key="PLAIN_TEXT" value="457" />
         </counts>
       </usages-collector>
     </session>
@@ -58,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greenbelt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="1054">
               <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
@@ -72,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -178,7 +186,11 @@
       <option name="presentableId" value="Default" />
       <updated>1529925322821</updated>
       <workItem from="1529925324024" duration="5404000" />
-      <workItem from="1533555132242" duration="8121000" />
+      <workItem from="1533555132242" duration="8976000" />
+      <workItem from="1534148741621" duration="10000" />
+      <workItem from="1534148768044" duration="27000" />
+      <workItem from="1540752360313" duration="355000" />
+      <workItem from="1540761383367" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="RopeBridge and Ruins added">
       <created>1533555239241</created>
@@ -257,11 +269,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533567992417</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new syntax">
+      <created>1533568509250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533568509250</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new syntax">
+      <created>1533568747740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1533568747740</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13525000" />
+    <option name="totallyTimeSpent" value="15667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
@@ -308,20 +334,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenbelt.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenbelt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1054">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/greenbelt.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="66" />
         </state>
       </provider>
     </entry>
