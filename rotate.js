@@ -64,8 +64,8 @@ var file = fs.readFileSync(__dirname + '/' + options.src, 'utf8');
 file = file.replace("</defs>", "</defs><g id='map'>");
 file = file.replace("</svg>", "</g></svg>");
 // 2018-10-28
-file = file.replace(/ > /g, "   ");
-file = file.replace(/^\>\n/g, "");
+file = file.replace(/ > /g,   "   ");
+file = file.replace(/>\s>/gm, ">");
 file = file.replace(/pqath/g, "path");
 //console.log(file);
 
