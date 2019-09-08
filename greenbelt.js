@@ -29,21 +29,21 @@ client.getArticle('KM:Kampagne/Karte/Greenbelt', function(err, data) {
         client.log('Images', images);
     });*/
 
-    var file = __dirname + "/greenbelt.txt";
+    var file = path.join(__dirname, "/greenbelt.txt");
     console.log("file", file);
 
-    var svg = __dirname + "/greenbelt.svg";
+    var svg = path.join(__dirname, "/greenbelt.svg");
     var svg2 = svg.replace(".svg", "_rotated.svg");
     console.log("svg", svg, svg2);
 
-    var pl = __dirname + "/lib/hex-mapping/text-mapper.pl";
+    var pl = path.join(__dirname, "/lib/hex-mapping/text-mapper.pl");
     console.log("pl", pl);
 
-    var js = __dirname + "/rotate.js";
+    var js = path.join(__dirname, "/rotate.js");
     console.log("js", js);
 
-    var pdf = __dirname + "/greenbelt.pdf";
-    var pdf_js = __dirname + "/map2pdf.js";
+    var pdf = path.join(__dirname, "/greenbelt.pdf");
+    var pdf_js = path.join(__dirname, "/map2pdf.js");
     console.log("pdf_js", pdf_js);
 
     fs.writeFile(file, res, function(err) {
