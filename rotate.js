@@ -56,7 +56,10 @@ if (options.help) {
   console.log(options)*/
 }
 
-const window = require('svgdom')
+// 2021-04-08
+// const window = require('svgdom')
+const { createSVGWindow } = require('svgdom')
+const window = createSVGWindow()
 const SVG = require('svg.js')(window)
 const document = window.document
 var file = fs.readFileSync(__dirname + '/' + options.src, 'utf8');

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg 
+  xmlns="http://www.w3.org/2000/svg" 
   xmlns="http://www.w3.org/2000/svg" version="1.1" 
   xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="50 0 1622 1820">
+  <!-- min (01, 01), max (11, 08) -->
   <defs>
     <g id="Keep">
       <rect fill="white" height="58" width="49" y="-24" x="-25"></rect>
-      <path d="M 5,3 C 2,20 -6,29 -13,34 l 36,0 0,-58 -20,0 c 3,8 4,18 2,27 z" style="fill: #fecb86"></path>
+      <path style="fill:#fecb86" d="M 5,3 C 2,20 -6,29 -13,34 l 36,0 0,-58 -20,0 c 3,8 4,18 2,27 z"></path>
       <path fill="none" stroke="black" stroke-width="5" d="m -25,-24 49,0 0,58 -49,0 z"></path>
       <path d="M -12,-6 c 0,-8 -6,-8 -6,0 c 2,0 3,0 6,0 z" stroke="black" stroke-width="2"></path>
       <path d="M 15,-6 c 0,-8 -6,-8 -6,0 c 2,0 3,0 6,0 z" stroke="black" stroke-width="2"></path>
@@ -226,7 +228,7 @@
     </g>
     <g id="Mountain">
       <path fill="white" d="m -48,16 c 0,0 32,-18 44,-42 C 7,-51 49,15 49,15"></path>
-      <path d="m -1,-32 c 0,0 14,43 -4,47 -18,5 54,0 54,0 0,0 -35,-56 -49,-47 z" style="fill: #fecb86"></path>
+      <path style="fill:#fecb86" d="m -1,-32 c 0,0 14,43 -4,47 -18,5 54,0 54,0 0,0 -35,-56 -49,-47 z"></path>
       <path fill="none" stroke="black" stroke-width="3" d="m -48,16 c 0,0 32,-18 44,-42 C 7,-51 49,15 49,15"></path>
     </g>
     <g id="forest-hill">
@@ -558,40 +560,40 @@
       <use xlink:href="#trees" transform="translate(-20, -40)"></use>
     </g>
     <g id="water_1">
-      <polygon fill="#6ebae7" points="-100.0,0.0 -50.0,86.6 -50.0,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-100.0,0.0 -50.0,86.6 -50.0,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_2">
-      <polygon fill="#6ebae7" points="-50.0,86.6 -50.0,0 0,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-50.0,86.6 -50.0,0 0,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_3">
-      <polygon fill="#6ebae7" points="-50.0,86.6 0,0 0,86.6" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-50.0,86.6 0,0 0,86.6" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_4">
-      <polygon fill="#6ebae7" points="0,0 0,86.6 50,86.6" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="0,0 0,86.6 50,86.6" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_5">
-      <polygon fill="#6ebae7" points="0,0 50,86.6 50,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="0,0 50,86.6 50,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_6">
-      <polygon fill="#6ebae7" points="50,86.6 50,0 100,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="50,86.6 50,0 100,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_7">
-      <polygon fill="#6ebae7" points="50,-86.6 50,0 100,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="50,-86.6 50,0 100,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_8">
-      <polygon fill="#6ebae7" points="0,0 50,-86.6 50,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="0,0 50,-86.6 50,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_9">
-      <polygon fill="#6ebae7" points="0,0 0,-86.6 50,-86.6" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="0,0 0,-86.6 50,-86.6" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_10">
-      <polygon fill="#6ebae7" points="-50,-86.6 0,0 0,-86.6" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-50,-86.6 0,0 0,-86.6" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_11">
-      <polygon fill="#6ebae7" points="-50,-86.6 -50,0 0,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-50,-86.6 -50,0 0,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="water_12">
-      <polygon fill="#6ebae7" points="-100,0 -50,-86.6 -50,0" style="transform: rotate(90deg)"></polygon>
+      <polygon fill="#6ebae7" points="-100,0 -50,-86.6 -50,0" style="transform: rotate(90deg);"></polygon>
     </g>
     <g id="WaterLake">
       <polygon fill="#6ebae7" points="-100,0 -50,86.6 50,86.6 100,0 50,-86.6 -50,-86.6" style="transform: rotate(90deg)"></polygon>
@@ -1285,8 +1287,119 @@
       </g>
     </g>
     <text x="50" y="-15" font-size="15pt" fill="#999999">
-      <a xlink:href="http://www.busygamemaster.com/" style="fill: #8888ff">Gnomeyland SVG Map Icons</a> Copyright Gregory B. MacKenzie 2012, Alex Schroeder 2013-2019. This work is licensed under the 
-      <a xlink:href="http://creativecommons.org/licenses/by-sa/3.0/" style="fill: #8888ff">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+      <a style="fill:#8888ff" xlink:href="http://www.busygamemaster.com/">Gnomeyland SVG Map Icons</a> Copyright Gregory B. MacKenzie 2012, Alex Schroeder 2013-2019. This work is licensed under the 
+      <a style="fill:#8888ff" xlink:href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
     </text>
+    <!-- Source
+0102 white grass_w
+0103 white grass_w
+0104 white grass_w
+0105 white grass_w
+0106 white grass_w
+0107 white grass_w
+0108 white grass_w
+
+0201 light-green grass_w cliff0 cliff1 cliff2 cliff5
+0202 light-green grass_w keep cliff0 cliff5 "Bokken's Hut"
+0203 light-green grass_w castle cliff0 cliff5 cliff1 cliff4 cliff3 icon_watchtower icon_farm_2 "Vic's T-Post"
+0204 light-green grass_w trees_sw cliff0 cliff5
+0205 green forest beartrap cliff0 cliff5 "Traps"
+0206 light-green grass_w cliff0 cliff5
+0207 light-green grass_w cliff0 cliff5 cliff4 tombstones "Hügelgräber"
+
+0302 light-green grass_w cliff1
+0303 light-green grass_w cave cliff1 cliff4 cliff0 cliff2 icon_farm "SpiderLairH"
+0304 green forest cave "MondR/OwlB"
+0305 green forest pixie "Feys/Furt"
+0306 white forest danger "DornQ/Ruin/Death"
+0307 light-green grass_w
+0308 light-green grass_w cliff3 cliff4 cliff5
+
+0401 light-green grass_w hydra cliff0 cliff1 cliff2 "Hydra Hort"
+0402 light-soil hill oldoak "Alte Eiche"
+0403 light-soil hill cave cliff1 cliff4 cliff5 cliff2 icon_mine "Grffns/GoldCave"
+0404 green forest camp "Dornfurtlager"
+0405 green forest ruins "TempleRuine"
+0406 green forest frog "StinkerQ/Frösche"
+0407 light-green grass_w cliff4 statue "Statue"
+
+0502 light-soil hill cliff1 ropebridge "NesselsÜ"
+0503 light-soil hill oldoak "WinzlingB"
+0504 light-soil hill ropebridge cliff1 cliff4 cliff5 cliff3 icon_farm "Canyon/Brücke"
+0505 green forest wildboar "Schlitzzahn"
+0506 green forest frog "Frösche/Ruinen"
+0507 green forest
+0508 white forest cliff3 cliff4 cliff5
+
+0601 light-soil hill cliff0 cliff1 cliff2
+0602 light-soil hill cave "KoboldH"
+0603 light-soil hill ropebridge cliff1 cliff4 cliff0 cliff2 icon_farm "Furt/Brücke"
+0604 light-soil hill "Reisbeeren"
+0605 green forest cave "LeucrottaCave"
+0606 green forest "TatzelwurmFurt"
+0607 white forest cliff4
+
+0702 light-soil hill cliff1 cliff2 cliff3 tombstone "Grabhügel"
+0703 light-soil hill cliff3 cliff2 cave "WorgCave"
+0704 light-soil water_6 water_7 hill castle cliff3 cliff2 cliff1 cliff4 cliff5 "Tuskwater Rock"
+0705 green forest cliff3 cliff2 "Sandbank"
+0706 green forest cliff3 cliff2 mermaid "Nixe"
+0707 green forest cliff3 cliff2 satyr "Dryade/Satyr"
+0708 white forest cliff2 cliff3 cliff4 cliff5
+
+0801 light-soil hill
+0802 light-soil hill "GudrinFurt"
+0803 light-soil water_1 water_2 water_3 water_4 hill 
+0804 light-soil water_5 water_6 water_7 water_8 water_9 water_10 water_11 water_12 hill trees_w "Elga"
+0805 green forest "Eremit"
+0806 green forest 
+0807 white forest castle "MurksQ/Fort"
+
+0902 white
+0903 white hill
+0904 light-soil water_1 hill "Mudbowl"
+0905 white water_lake water_isle trees_nw "Candlemeere"
+0906 white forest
+0907 white forest
+0908 white 
+
+1001 white
+1002 white
+1003 white hill
+1004 white hill
+1005 white forest
+1006 white forest
+1007 white 
+
+1102 white
+1103 white
+1104 white
+1105 white
+1106 white
+1107 white
+1108 white
+
+0101-0102-0103-0203-0104-0004 trail
+0103-0102-0101 trail "Nach Restov"
+0704-0603-0504-0403-0303-0203-0103 trail
+
+0306-0305-0404-0504-0603-0704-0803 river
+0504-0603 river "Dorn"
+0406-0506-0606-0706-0705-0704-0803 river
+0506-0606 river "Stinker"
+0501-0401-0502-0602-0603-0704-0803 river
+0401-0501 river "Würger"
+0807-0806-0906-0905-0804-0803 river
+0806-0906 river "Murks"
+0800-0801-0802-0803-0804 river
+0801-0800 river "Gudrin"
+0901-0902-1002-1003-1104-1204 river
+0902-0901 river "Unbenannt"
+0905-1004-1003-1104-1204 river
+1004-1003 river "Unbenannt"
+
+include https://campaignwiki.org/contrib/gnomeyland.txt
+include https://www.creo-ignem.net/community/hex-mapper/lib.txt
+-->
   </g>
 </svg>
