@@ -7,3 +7,9 @@ It creates a SVG and a PDF based from the [Kingmaker Playerguide](https://paizo.
 The original perl based tool is from https://alexschroeder.ch/cgit/hex-mapping and included as a git submodule.
 
 All icons are from the fabulous [noun project](https://thenounproject.com/).
+
+## dependencies
+For ubuntu you need nodejs and these two perl packages:
+```console
+apt install libmodern-perl-perl libmojolicious-perl
+```
