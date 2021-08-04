@@ -4,6 +4,6 @@ A NodeJS rotator making hex maps compatible with [Pathfinder Kingmaker Adventure
 It creates a SVG and a PDF based from the [Kingmaker Playerguide](https://paizo.com/products/btpy8dqh?Pathfinder-Adventure-Path-Kingmaker-Players-Guide).
 
 ## credits
-The original tool is from https://alexschroeder.ch/cgit/hex-mapping and included as a git submodule.
+The original perl based tool is from https://alexschroeder.ch/cgit/hex-mapping and included as a git submodule.
 
 All icons are from the fabulous [noun project](https://thenounproject.com/).
