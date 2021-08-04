@@ -3,80 +3,80 @@
 0104 white grass_w
 0105 white grass_w
 0106 white grass_w
-0107 white
-0108 white
+0107 white grass_w
+0108 white grass_w
 
 0201 light-green grass_w cliff0 cliff1 cliff2 cliff5
 0202 light-green grass_w keep cliff0 cliff5 "Bokken's Hut"
-0203 light-green grass_w castle cliff0 cliff5 "Oleg's Tpost"
+0203 light-green grass_w castle cliff0 cliff5 cliff1 cliff4 cliff3 icon_watchtower icon_farm_2 "Vic's T-Post"
 0204 light-green grass_w trees_sw cliff0 cliff5
 0205 green forest beartrap cliff0 cliff5 "Traps"
-0206 white grass_w cliff0 cliff5
-0207 white cliff0 cliff5 cliff4
+0206 light-green grass_w cliff0 cliff5
+0207 light-green grass_w cliff0 cliff5 cliff4 tombstones "Hügelgräber"
 
 0302 light-green grass_w cliff1
-0303 light-green grass_w cave "SpiderLairH"
+0303 light-green grass_w cave cliff1 cliff4 cliff0 cliff2 icon_farm "SpiderLairH"
 0304 green forest cave "MondR/OwlB"
 0305 green forest pixie "Feys/Furt"
-0306 white forest
-0307 white "Dorn Quelle"
-0308 white cliff3 cliff4 cliff5
+0306 white forest danger "DornQ/Ruin/Death"
+0307 light-green grass_w
+0308 light-green grass_w cliff3 cliff4 cliff5
 
-0401 light-green grass hydra cliff0 cliff1 cliff2 "Hydra Hort"
+0401 light-green grass_w hydra cliff0 cliff1 cliff2 "Hydra Hort"
 0402 light-soil hill oldoak "Alte Eiche"
-0403 light-soil hill cave "Grffns/GoldCave"
+0403 light-soil hill cave cliff1 cliff4 cliff5 cliff2 icon_mine "Grffns/GoldCave"
 0404 green forest camp "Dornfurtlager"
-0405 green forest ruins "TempleRuin"
-0406 white forest "Stinker Quelle"
-0407 white cliff4
+0405 green forest ruins "TempleRuine"
+0406 green forest frog "StinkerQ/Frösche"
+0407 light-green grass_w cliff4 statue "Statue"
 
-0502 white hill cliff1
-0503 white hill
-0504 white hill ropebridge "Canyon"
-0505 white forest
-0506 white forest "Frösche / Ruinen"
-0507 white 
-0508 white cliff3 cliff4 cliff5
+0502 light-soil hill cliff1 ropebridge "NesselsÜ"
+0503 light-soil hill oldoak "WinzlingB"
+0504 light-soil hill ropebridge cliff1 cliff4 cliff5 cliff3 icon_farm "Canyon/Brücke"
+0505 green forest wildboar "Schlitzzahn"
+0506 green forest frog "Frösche/Ruinen"
+0507 green forest
+0508 white forest cliff3 cliff4 cliff5
 
-0601 white cliff0 cliff1 cliff2
-0602 white 
-0603 white hill
-0604 white hill
-0605 white forest 
-0606 white forest 
-0607 white cliff4
+0601 light-soil hill cliff0 cliff1 cliff2
+0602 light-soil hill cave "KoboldH"
+0603 light-soil hill ropebridge cliff1 cliff4 cliff0 cliff2 icon_farm "Furt/Brücke"
+0604 light-soil hill "Reisbeeren"
+0605 green forest cave "LeucrottaCave"
+0606 green forest "TatzelwurmFurt"
+0607 white forest cliff4
 
-0702 white cliff1 cliff2 cliff3
-0703 white cliff3 cliff2
-0704 white cliff3 cliff2
-0705 white cliff3 cliff2
-0706 white cliff3 cliff2
-0707 white cliff3 cliff2
-0708 white cliff2 cliff3 cliff4 cliff5
+0702 light-soil hill cliff1 cliff2 cliff3 tombstone "Grabhügel"
+0703 light-soil hill cliff3 cliff2 cave "WorgCave"
+0704 light-soil water_6 water_7 hill castle cliff3 cliff2 cliff1 cliff4 cliff5 "Tuskwater Rock"
+0705 green forest cliff3 cliff2 "Sandbank"
+0706 green forest cliff3 cliff2 mermaid "Nixe"
+0707 green forest cliff3 cliff2 satyr "Dryade/Satyr"
+0708 white forest cliff2 cliff3 cliff4 cliff5
 
-0801 white
-0802 white
-0803 white
-0804 white
-0805 white
-0806 white
-0807 white
+0801 light-soil hill
+0802 light-soil hill "GudrinFurt"
+0803 light-soil water_1 water_2 water_3 water_4 hill 
+0804 light-soil water_5 water_6 water_7 water_8 water_9 water_10 water_11 water_12 hill trees_w "Elga"
+0805 green forest "Eremit"
+0806 green forest 
+0807 white forest castle "MurksQ/Fort"
 
 0902 white
-0903 white
-0904 white
-0905 white
-0906 white
-0907 white
-0908 white
+0903 white hill
+0904 light-soil water_1 hill "Mudbowl"
+0905 white water_lake water_isle trees_nw "Candlemeere"
+0906 white forest
+0907 white forest
+0908 white 
 
 1001 white
 1002 white
-1003 white
-1004 white
-1005 white
-1006 white
-1007 white
+1003 white hill
+1004 white hill
+1005 white forest
+1006 white forest
+1007 white 
 
 1102 white
 1103 white
@@ -88,12 +88,22 @@
 
 0101-0102-0103-0203-0104-0004 trail
 0103-0102-0101 trail "Nach Restov"
+0704-0603-0504-0403-0303-0203-0103 trail
 
-0306-0305-0404-0504-0603 river
+0306-0305-0404-0504-0603-0704-0803 river
 0504-0603 river "Dorn"
-0406-0506-0606 river
+0406-0506-0606-0706-0705-0704-0803 river
 0506-0606 river "Stinker"
-0501-0401-0502 river
+0501-0401-0502-0602-0603-0704-0803 river
+0401-0501 river "Würger"
+0807-0806-0906-0905-0804-0803 river
+0806-0906 river "Murks"
+0800-0801-0802-0803-0804 river
+0801-0800 river "Gudrin"
+0901-0902-1002-1003-1104-1204 river
+0902-0901 river "Unbenannt"
+0905-1004-1003-1104-1204 river
+1004-1003 river "Unbenannt"
 
 include https://campaignwiki.org/contrib/gnomeyland.txt
 include https://www.creo-ignem.net/community/hex-mapper/lib.txt
