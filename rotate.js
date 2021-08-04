@@ -148,7 +148,7 @@ data = data.split(' svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"').join(''
 
 // 2021-04-08
 // data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg xmlns="http://www.w3.org/2000/svg" ');
-data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg" ');
+data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg');
 // console.log(data);
 
 if (rotate_doc) {
