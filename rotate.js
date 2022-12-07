@@ -56,7 +56,10 @@ if (options.help) {
   console.log(options)*/
 }
 
-const window = require('svgdom')
+// 2021-04-08
+// const window = require('svgdom')
+const { createSVGWindow } = require('svgdom')
+const window = createSVGWindow()
 const SVG = require('svg.js')(window)
 const document = window.document
 var file = fs.readFileSync(__dirname + '/' + options.src, 'utf8');
@@ -126,7 +129,7 @@ var elements = SVG.select('#labels g text').each(function(i, children) {
 if (rotate_doc) {
   var x = viewbox[2] / 2;
   var y = viewbox[3] / 2;
-  
+
   var d = Math.abs(viewbox[2] - viewbox[3]) / 2;
 
   SVG.select("#map").transform({ rotation: 90, cx: x, cy: y }).transform({ x: d }, true).transform({ y: d }, true);
@@ -136,12 +139,17 @@ if (rotate_doc) {
 // render and correct
 var data = map.svg();
 data = data.split("</svg>");
-//console.log(data);
+// console.log(data);
+
 data = data[1] + "</svg>";
 
 data = data.split(' svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"').join('');
+// console.log(data);
 
-data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg xmlns="http://www.w3.org/2000/svg" ');
+// 2021-04-08
+// data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg xmlns="http://www.w3.org/2000/svg" ');
+data = data.replace("<svg ", '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<svg');
+// console.log(data);
 
 if (rotate_doc) {
   //data = data.replace(matches[0], 'viewBox="' + viewbox[1] + ' ' + viewbox[0] + ' ' + viewbox[3] + ' ' + viewbox[2] + '"');
