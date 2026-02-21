@@ -12,7 +12,7 @@
     "command-line-args": "^5.2.1",
     "command-line-usage": "^5.0.5",
     "hummus-recipe": "^1.9.9",
-    "nodemw": "^0.18.0",
+    "nodemw": "^0.25.0",
     "pretty-data": "^0.40.0",
     "svg-to-pdfkit": "^0.1.8",
     "svg.js": "^2.7.1",
