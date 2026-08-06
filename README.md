@@ -6,10 +6,14 @@ It creates a SVG and a PDF based from the [Kingmaker Playerguide](https://paizo.
 ## credits
 The original perl based tool is from https://alexschroeder.ch/cgit/hex-mapping and included as a git submodule.
 
-All map icons are the **Gnomeyland SVG Map Icons**, Copyright Gregory B. MacKenzie 2012,
-Alex Schroeder 2013–2019, licensed under
-[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-They come with the hex-mapping submodule.
+`greenbelt.txt` includes two icon libraries:
+
+- **Gnomeyland SVG Map Icons** — the terrain icons. Copyright Gregory B. MacKenzie 2012,
+  Alex Schroeder 2013–2019, licensed under
+  [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+  Included from `campaignwiki.org/contrib/gnomeyland.txt`.
+- **`lib.txt`** — the encounter markers (hydra, wild boar, old oak, and the rest).
+  Icons from the [noun project](https://thenounproject.com/), served from `creo-ignem.net`.
 
 ## dependencies
 For ubuntu you need nodejs and these two perl packages:
