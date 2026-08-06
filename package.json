@@ -20,8 +20,12 @@
   },
   "overrides": {
     "hummus-recipe": {
-      "muhammara": "6.0.4",
+      "muhammara": "^6.0.5",
       "xmldom": "npm:@xmldom/xmldom@^0.9.9"
-    }
+    },
+    "tar": "^7.5.21",
+    "qs": "^6.15.2",
+    "uuid": "^11.1.1",
+    "tough-cookie": "^5.1.2"
   }
 }
