@@ -6,7 +6,10 @@ It creates a SVG and a PDF based from the [Kingmaker Playerguide](https://paizo.
 ## credits
 The original perl based tool is from https://alexschroeder.ch/cgit/hex-mapping and included as a git submodule.
 
-All icons are from the fabulous [noun project](https://thenounproject.com/).
+All map icons are the **Gnomeyland SVG Map Icons**, Copyright Gregory B. MacKenzie 2012,
+Alex Schroeder 2013–2019, licensed under
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+They come with the hex-mapping submodule.
 
 ## dependencies
 For ubuntu you need nodejs and these two perl packages:
