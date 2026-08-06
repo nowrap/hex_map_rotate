@@ -16,7 +16,9 @@ The original perl based tool is from https://alexschroeder.ch/cgit/hex-mapping a
   Icons from the [noun project](https://thenounproject.com/), served from `creo-ignem.net`.
 
 ## dependencies
-For ubuntu you need nodejs and these two perl packages:
+For ubuntu you need nodejs and these perl packages:
 ```console
-apt install libmodern-perl-perl libmojolicious-perl
+apt install libmodern-perl-perl libmojolicious-perl liblist-moreutils-perl liblwp-protocol-https-perl
 ```
+`liblwp-protocol-https-perl` pulls in `LWP::UserAgent` and TLS support, needed for the
+`include https://…` lines in the map source.
