@@ -32,13 +32,9 @@ This repository mixes several licenses — one root `LICENSE` cannot cover all o
 | Tooling code — `*.js`, `package.json` | **MIT** (see [`LICENSE`](LICENSE)) |
 | Generated maps — `greenbelt.svg`, `greenbelt_rotated.svg`, `greenbelt.pdf`, `greenbelt_temp.pdf` | **CC BY-SA 3.0** — they embed the Gnomeyland icons, so Share-Alike carries to the whole map. They are **not** MIT. |
 | Gnomeyland terrain icons (`gnomeyland.txt`) | CC BY-SA 3.0 © Gregory B. MacKenzie 2012, Alex Schroeder 2013–2019 |
-| Encounter-marker icons in `lib.txt` | from the [Noun Project](https://thenounproject.com/) (CC BY). Per-icon attribution is incomplete — see note below. |
+| Encounter-marker icons in `lib.txt` | from the [Noun Project](https://thenounproject.com/), **CC BY** — per-icon creators listed in [`ICON-CREDITS.md`](ICON-CREDITS.md). |
 | `lib/hex-mapping` submodule (text-mapper) | **GPL v3+**, Alex Schroeder. Invoked as an external program, not bundled — its copyleft does not extend to the MIT tooling here. |
 | `map_kingmaker_template.pdf` | © Paizo Inc. / Ulisses Spiele, from the Kingmaker Player's Guide. Included for **personal use only**; not covered by any of the licenses above. |
-
-> **Icon attribution gap:** `lib.txt` carries no per-icon author records, which CC BY strictly
-> requires. If you redistribute the maps and can identify the original Noun Project authors,
-> please add them; otherwise treat this as best-effort attribution to the Noun Project.
 
 Pathfinder and Kingmaker are trademarks of Paizo Inc.; this project is unaffiliated with and
 unendorsed by Paizo.
