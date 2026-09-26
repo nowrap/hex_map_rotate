@@ -16,7 +16,7 @@
     "pretty-data": "^0.40.0",
     "svg-to-pdfkit": "^0.1.8",
     "svg.js": "^2.7.1",
-    "svgdom": "0.1.23"
+    "svgdom": "0.1.29"
   },
   "overrides": {
     "hummus-recipe": {
